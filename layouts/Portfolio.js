@@ -33,7 +33,7 @@ const Portfolio = () => {
 					h="auto"
 					justify={"center"}
 					alignItems={"center"}
-					mb={["0vh", "0vh", "0vh", "25vh"]}
+					mb={["0vh", "0vh", "0vh", "5vh"]}
 				>
 					<Text
 						fontSize={["4xl", "5xl", "6xl", "6xl", "6xl"]}
@@ -50,6 +50,7 @@ const Portfolio = () => {
 							boxShadow: "0px 0px 10px #ad1d71",
 						}}
 						mb={["20vh", "20vh", "20vh", "20vh", "0vh"]}
+						color='#dedede'
 					>
 						My Projects
 					</Text>

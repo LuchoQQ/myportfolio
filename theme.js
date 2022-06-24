@@ -1,9 +1,8 @@
 import { extendTheme } from "@chakra-ui/react";
-import "@fontsource/space-mono";
-
+import "@fontsource/merriweather-sans"
 const theme = extendTheme({
     fonts: {
-        primary: "Space Mono",
+        primary: "Merriweather Sans",
     },
     colors: {
         primary: "#ad1d71",

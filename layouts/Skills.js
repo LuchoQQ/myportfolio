@@ -40,7 +40,7 @@ const Skills = () => {
 						fontSize={["4xl", "6xl"]}
 						textShadow={"2px 2px 1px #ad1d71"}
 						position={"relative"}
-						w={"50%"}
+						w={["80%", "50%"]}
 						textAlign={"center"}
 						_before={{
 							content: '""',
@@ -51,6 +51,7 @@ const Skills = () => {
 							background: "linear-gradient(to right, #ad1d71, #FF81BE)",
 							boxShadow: "0px 0px 10px #ad1d71",
 						}}
+						color='#dedede'
 					>
 						Skills
 					</Text>
@@ -69,6 +70,7 @@ const Skills = () => {
 							justifySelf={"center"}
 							textShadow={"1px 1px 1px #ad1d71"}
 							mb={["10vh", "10vh", "10vh", "10vh"]}
+							color='#dedede'
 						>
 							Technical Skills
 						</Text>
@@ -91,6 +93,7 @@ const Skills = () => {
 								fontSize={["xl", "xl", "xl", "2xl"]}
 								w={["90vw", "90vw", "90vw", "30vw"]}
 								textAlign="center"
+								color='#dedede'
 							>
 								Es de mi preferencia el ecosistema de
 								Javascript, me familiaricé con él desde el lado del frontend y

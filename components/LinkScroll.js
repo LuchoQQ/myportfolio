@@ -6,7 +6,6 @@ const LinkScroll = ({ handle, path, name }) => {
 		<>
 			<Link to={path} spy={true} smooth={true} duration={500} onClick={handle}>
 				<Text
-					fontFamily={"Space Mono"}
 					fontSize={["2xl","2xl", "2xl", "md", "lg"]}
 					cursor={"pointer"}
 					color={"#fff"}

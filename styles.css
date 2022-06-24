@@ -1,5 +1,6 @@
 * {
-    overflow-x: hidden;    
+    overflow-x: hidden;
+    font-family: 'Merriweather Sans';
 }
 
 *::-webkit-scrollbar {

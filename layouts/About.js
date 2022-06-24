@@ -93,6 +93,7 @@ const Main = () => {
 
 							boxShadow: "0px 0px 10px #ad1d71",
 						}}
+						color='#dedede'
 					>
 						About
 					</Text>
@@ -101,6 +102,7 @@ const Main = () => {
 						fontSize={["xl", "xl", "xl", "2xl"]}
 						textAlign="center"
 						w={"90%"}
+						color='#dedede'
 					>
 						<span>Soy un desarrolador</span>
 						<span style={{ color: "#6a3fb5" }}> fullstack</span>
@@ -119,6 +121,7 @@ const Main = () => {
 						fontSize={["xl", "xl", "xl", "2xl"]}
 						textAlign="center"
 						w={"90%"}
+						color='#dedede'
 					>
 						<span>
 							La tecnología, la ciencia y los videojuegos son algunos de mis

@@ -12,7 +12,6 @@ const MenuItem = ({path, name}) => {
     <div>
         <Link to={path}>
             <Text
-              fontFamily={"Space Mono"}
               fontSize={{ base: 'md', md: 'md' , lg: 'lg'}} 
               cursor={"pointer"} 
               color={"#fff"}

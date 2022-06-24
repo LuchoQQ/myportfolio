@@ -727,6 +727,16 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
   "version" "0.2.5"
 
+"@fontsource/bree-serif@^4.5.7":
+  "integrity" "sha512-ipYCM2BnEbTtGl2JsfYrSTABPie3wk8Pic127UJuaSZ1J2brCRMDVnys55OyUgMvDulpSmVIhqDVRuYYYMHzqA=="
+  "resolved" "https://registry.npmjs.org/@fontsource/bree-serif/-/bree-serif-4.5.7.tgz"
+  "version" "4.5.7"
+
+"@fontsource/merriweather-sans@^4.5.8":
+  "integrity" "sha512-9rg+d+t43R94wwq7BoBHXYPY1hOrZSYWq5gnfESaXrMQTaKMb9Sh6VvnvujAhOL+hwrtOXUwWTccT3JWdZaLnA=="
+  "resolved" "https://registry.npmjs.org/@fontsource/merriweather-sans/-/merriweather-sans-4.5.8.tgz"
+  "version" "4.5.8"
+
 "@fontsource/space-mono@^4.5.8":
   "integrity" "sha512-qO3riZauz1yu7g8gumsmKgGitgDx7dQbwjKG+rDhF/OfNNCPyjArcNIU22nvANZ7UuDvLzo3tRprqlosaS7fKA=="
   "resolved" "https://registry.npmjs.org/@fontsource/space-mono/-/space-mono-4.5.8.tgz"

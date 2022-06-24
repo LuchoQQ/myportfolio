@@ -9,6 +9,8 @@
     "@chakra-ui/react": "^2.0.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/bree-serif": "^4.5.7",
+    "@fontsource/merriweather-sans": "^4.5.8",
     "@fontsource/space-mono": "^4.5.8",
     "framer-motion": "^6.3.3",
     "mongodb": "^4.1.3",

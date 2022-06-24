@@ -8,22 +8,7 @@ import LinkScroll from "../components/LinkScroll";
 import { useState } from "react";
 
 const Navbar = () => {
-	const theme = useTheme();
-	const initial = {
-		opacity: 0,
-		y: -100,
-	};
-
-	const animate = {
-		opacity: 1,
-		y: 0,
-		transition: {
-			duration: 1,
-			ease: [0.6, 0.05, -0.01, 0.9],
-			staggerChildren: 0.1,
-		},
-	};
-
+	
 	const [isOpen, setIsOpen] = useState(false);
 
 	const handleClose = () => {
@@ -49,7 +34,6 @@ const Navbar = () => {
 					fill={"#ad1d71"}
 					transition={"all 0.2s ease-in-out"}
 					_hover={{ fill: "#FF81BE" }}
-					fontFamily={"Space Mono"}
 				/>
 				<Flex alignItems="center">
 					<Grid
@@ -83,7 +67,6 @@ const Navbar = () => {
 						}}
 						transition={"all 0.2s ease-in-out"}
 						cursor={"pointer"}
-						fontFamily={"Space Mono"}
 						display={["none", "none", "flex", "flex"]}
 					>
 						Curriculum
@@ -94,6 +77,8 @@ const Navbar = () => {
 						h={10}
 						display={["flex", "flex", "none", "none"]}
 						onClick={() => setIsOpen(!isOpen)}
+						fill='#dedede'
+						
 					/>
 				</Flex>
 			</Grid>
@@ -138,7 +123,6 @@ const Navbar = () => {
 							h={24}
 							fill={"#ad1d71"}
 							_hover={{ fill: "#FF81BE" }}
-							fontFamily={"Space Mono"}
 						/>
 						<Icon
 							as={AiOutlineClose}
@@ -146,7 +130,6 @@ const Navbar = () => {
 							h={16}
 							fill={"#dedede"}
 							_hover={{ fill: "#FF81BE" }}
-							fontFamily={"Space Mono"}
 							onClick={() => setIsOpen(!isOpen)}
 						/>
 					</Flex>

@@ -38,12 +38,13 @@ const Hero = () => {
 				zIndex={"100"}
 				justifyContent={"center"}
 			>
-				<Box
+				<Grid
 					width={["100%", "100%", "50vw", "50vw"]}
 					display={"flex"}
 					flexDirection={"column"}
 					justifyContent={"center"}
 					alignItems={"center"}
+					gap='3vh'
 				>
 					<Text
 						fontSize={["1.5rem", "1.5rem", "2.5rem", "3rem"]}
@@ -53,27 +54,17 @@ const Hero = () => {
 						Hello, my name is
 					</Text>
 
-					<Text fontSize={"3rem"} textShadow={"2px 0px 0px #ad1d71"}>
+					<Text fontSize={"3rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff'>
 						Luciano
 					</Text>
 					<Text color="#ad1d71" fontSize={"3rem"}>
 						Sánchez
 					</Text>
-					<Text fontSize={"1.5rem"} textShadow={"2px 0px 0px #ad1d71"}>
+					<Text fontSize={"1.5rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff' textAlign={'center'}>
 						I am Frontend Developer
 					</Text>
-					<Box marginTop={"15vh"}>
-						<Text marginBottom={"2vh"} textShadow={"1px 0px 0px #ad1d71"}>
-							Enter your Email.
-						</Text>
-						<Input
-							focusBorderColor={"#ad1d71"}
-							placeholder="Insert ur email"
-							size="lg"
-							w={"25vw"}
-						/>
-					</Box>
-				</Box>
+					
+				</Grid>
 
 				<Flex
 					width={"50vw"}
