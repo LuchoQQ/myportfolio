@@ -71,7 +71,11 @@ const Portfolio = () => {
 						description="Movieverse es un proyecto donde puedes ver abundante información acerca de películas y series. Posee navegación, busqueda, paginación entre otras features"
 					/>
 
-					<Project />
+					<Project 
+						url='https://res.cloudinary.com/diylksocz/image/upload/v1656164407/Sin_t%C3%ADtulo_mhrkrs.png'
+						repo='https://github.com/axelromero99/greka'
+						description='Greka es un trabajo en proceso para una cliente que requiere una tienda online que funcione con Google Sheets. En colaboración con un equipo de desarrolladores'
+					/>
 
 					<Project />
 				</Grid>
