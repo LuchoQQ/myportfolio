@@ -61,7 +61,7 @@ const Hero = () => {
 						Sánchez
 					</Text>
 					<Text fontSize={"1.5rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff' textAlign={'center'}>
-						I am Frontend Developer
+						I am FullStack Developer
 					</Text>
 					
 				</Grid>

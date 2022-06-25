@@ -23,7 +23,7 @@ const RadialMenu = () => {
         >
            
             <Flex
-                bg={`${isOpen ? '#ad1d71' : '#131313'}`}
+                bg={`${isOpen ? '#6a3fb5' : '#131313'}`}
                 onClick={() => {setIsOpen(!isOpen)}}
                 position={'absolute'}
                 zIndex={'100'}
@@ -31,7 +31,7 @@ const RadialMenu = () => {
                 borderRadius={'50%'}
                 justifyContent={'center'}
                 alignItems={'center'}
-                boxShadow={'0px 0px 10px #ad1d71'}
+                boxShadow={'0px 0px 10px #6a3fb5'}
                 transition={'all 0.5s ease-in-out'} 
             >
                 <Icon 

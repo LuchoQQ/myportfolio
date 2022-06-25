@@ -7,7 +7,8 @@ const Project = ({ url, repo, web }) => {
     <Grid
       w={["80vw", "50vw", "30vw", "30vw", "20vw"]}
       h={["70vh", "40vh", "40vh", "30vw", "70vh"]}
-	  bg='#070707' p='2rem'
+      bg="#070707"
+      p="2rem"
     >
       <Box overflow="hidden" role="group" borderRadius={"10%"}>
         <Image
@@ -29,7 +30,7 @@ const Project = ({ url, repo, web }) => {
           display={"none"}
           transition={"all 0.2s ease"}
           _groupHover={{
-			display: 'flex',
+            display: "flex",
             justifyContent: "center",
             alignItems: "center",
           }}
@@ -45,7 +46,7 @@ const Project = ({ url, repo, web }) => {
           </Grid>
         </Box>
       </Box>
-      <Box mt='5vh' color='#ababab' textAlign={'center'}>
+      <Box mt="5vh" color="#ababab" textAlign={"center"}>
         Nulla deserunt ullamco ex pariatur excepteur magna nulla id sint do
         consequat ad in amet. In amet anim do dolor nisi aliquip consectetur
         adipisicing Lorem ullamco exercitation duis ut. Velit Lorem do minim

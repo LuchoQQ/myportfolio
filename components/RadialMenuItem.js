@@ -15,7 +15,7 @@ const RadialMenuItem = ({icon, translateY, translateX, display}) => {
                 fill={'white'}
                 fontSize={'6xl'}
                 p='5px'
-                _hover={{ fill: '#ad1d71', transform: 'scale(1.2)' }}
+                _hover={{ fill: '#6a3fb5', transform: 'scale(1.2)' }}
                 transition={'all 0.2s ease-in-out'}
             />
                 

@@ -48,8 +48,8 @@ const Skills = () => {
 							display: "block",
 							width: "100%",
 							height: "4px",
-							background: "linear-gradient(to right, #ad1d71, #FF81BE)",
-							boxShadow: "0px 0px 10px #ad1d71",
+							background: "linear-gradient(to right, #6a3fb5, #ad1d71, #FF81BE)",
+							boxShadow: "0px 0px 10px #6a3fb5",
 						}}
 						color='#dedede'
 					>
@@ -68,7 +68,7 @@ const Skills = () => {
 						<Text
 							fontSize={"4xl"}
 							justifySelf={"center"}
-							textShadow={"1px 1px 1px #ad1d71"}
+							textShadow={"1px 1px 1px #6a3fb5"}
 							mb={["10vh", "10vh", "10vh", "10vh"]}
 							color='#dedede'
 						>
@@ -94,14 +94,20 @@ const Skills = () => {
 								w={["90vw", "90vw", "90vw", "30vw"]}
 								textAlign="center"
 								color='#dedede'
+								//#ad1d71
+								//#61dbfb
+								//#6a3fb5
 							>
 								Es de mi preferencia el ecosistema de
-								Javascript, me familiaricé con él desde el lado del frontend y
-								el backend con tecnologías como ReactJS, NodeJS, TypeScript y
-								NextJS. Sin embargo, siempre estoy dispuesto a aprender nuevas
+								Javascript, me familiaricé en el frontend con tecnologías como <span style={{ color: '#6a3fb5' }}>ReactJS</span>, <span style={{ color: '#6a3fb5' }}>NodeJS</span>, <span style={{ color: '#6a3fb5' }}>TypeScript</span> y
+								<span style={{ color: '#6a3fb5' }}> NextJS</span>. Sin embargo, siempre estoy dispuesto a aprender nuevas
 								tecnologías.
 							</Text>
-							
+							<Text
+							fontSize={["xl", "xl", "xl", "2xl"]}
+							w={["90vw", "90vw", "90vw", "30vw"]}
+							textAlign="center"
+							color='#dedede'>Desde el backend, he utilizado tecnologías como MongoDB, MySQL, PostgresSQL </Text>
 						</Grid>
 					</Flex>
 				</Grid>
