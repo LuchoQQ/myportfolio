@@ -50,7 +50,8 @@ const Navbar = () => {
 						<LinkScroll path="portfolio" name={"Portfolio"} />
 						<LinkScroll path="contact" name={"Contact"} />
 					</Grid>
-
+					
+					<a href='https://res.cloudinary.com/diylksocz/image/upload/v1656160018/LUCIANO_SÁNCHEZ_iqiep7.png' style={{ padding: '1rem' }}>
 					<Flex
 						borderRadius="20px"
 						ml="5vw"
@@ -71,6 +72,7 @@ const Navbar = () => {
 					>
 						Curriculum
 					</Flex>
+					</a>
 					<Icon
 						as={GiHamburgerMenu}
 						w={10}
@@ -138,6 +140,7 @@ const Navbar = () => {
 					<LinkScroll handle={handleClose} path="skills" name={"Skills"} />
 					<LinkScroll handle={handleClose} path="portfolio" name={"Portfolio"} />
 					<LinkScroll handle={handleClose} path="contact" name={"Contact"} />
+					<a href='https://res.cloudinary.com/diylksocz/image/upload/v1656160018/LUCIANO_SÁNCHEZ_iqiep7.png' style={{ justifySelf: 'center', fontSize: '1.5rem', color: '#fff' }}>Curriculum</a>
 				</Grid>
 			</Grid>
 		</>

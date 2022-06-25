@@ -68,6 +68,7 @@ const Portfolio = () => {
 						url="https://res.cloudinary.com/diylksocz/image/upload/v1654799935/movieverse_fondo_bey7yb.jpg"
 						repo="https://github.com/LuchoQQ/movieverse"
 						web="https://movieverse-olive.vercel.app"
+						description="Movieverse es un proyecto donde puedes ver abundante información acerca de películas y series. Posee navegación, busqueda, paginación entre otras features"
 					/>
 
 					<Project />

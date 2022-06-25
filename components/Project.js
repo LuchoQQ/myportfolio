@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Image, Flex, Grid, Icon } from "@chakra-ui/react";
 import { BsGlobe, BsGithub } from "react-icons/bs";
 
-const Project = ({ url, repo, web }) => {
+const Project = ({ url, repo, web, description}) => {
   return (
     <Grid
       w={["80vw", "50vw", "30vw", "30vw", "20vw"]}
@@ -47,11 +47,7 @@ const Project = ({ url, repo, web }) => {
         </Box>
       </Box>
       <Box mt="5vh" color="#ababab" textAlign={"center"}>
-        Nulla deserunt ullamco ex pariatur excepteur magna nulla id sint do
-        consequat ad in amet. In amet anim do dolor nisi aliquip consectetur
-        adipisicing Lorem ullamco exercitation duis ut. Velit Lorem do minim
-        ipsum et. Duis quis do laborum mollit sunt veniam cupidatat nostrud nisi
-        voluptate ut amet mollit esse.
+        {description}
       </Box>
     </Grid>
   );

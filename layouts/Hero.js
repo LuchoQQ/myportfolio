@@ -51,19 +51,19 @@ const Hero = () => {
 						color={"#fff"}
 						textShadow={"2px 0px 0px #ad1d71"}
 					>
-						Hello, my name is
+						Bienvenidos!
 					</Text>
 
-					<Text fontSize={"3rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff'>
+					<Text fontSize={"2rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff'>
 						Luciano
 					</Text>
-					<Text color="#ad1d71" fontSize={"3rem"}>
+					<Text color="#ad1d71" fontSize={"2rem"}>
 						Sánchez
 					</Text>
-					<Text fontSize={"1.5rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff' textAlign={'center'}>
-						I am FullStack Developer
+					<Text fontSize={"1.2rem"} textShadow={"2px 0px 0px #ad1d71"} color='#fff' textAlign={'center'}>
+						FullStack Developer
 					</Text>
-					
+					<Text>web work in progress</Text>
 				</Grid>
 
 				<Flex

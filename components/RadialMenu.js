@@ -7,7 +7,8 @@ import { useState } from 'react'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { RiReactjsLine } from 'react-icons/ri'
 import { FaNodeJs } from 'react-icons/fa'
-import { SiMongodb, SiNextdotjs, SiTypescript } from 'react-icons/si'
+import { SiMongodb, SiNextdotjs, SiTypescript, SiPostgresql} from 'react-icons/si'
+import { GrMysql } from 'react-icons/gr'
 import { motion } from 'framer-motion'
 
 const RadialMenu = () => {
@@ -52,7 +53,8 @@ const RadialMenu = () => {
             <RadialMenuItem icon={SiMongodb} translateX={'100'} translateY={'-120'} display={isOpen}/>
             <RadialMenuItem icon={SiNextdotjs} translateX={'160'} translateY={'-50'} display={isOpen}/>
             <RadialMenuItem icon={SiTypescript} translateX={'165'} translateY={'50'} display={isOpen}/>
-
+            <RadialMenuItem icon={SiPostgresql} translateX={'100'} translateY={'155'} display={isOpen}/>
+            <RadialMenuItem icon={GrMysql} translateX={'10'} translateY={'175'} display={isOpen}/>
 
         </Box>
     </Box>
