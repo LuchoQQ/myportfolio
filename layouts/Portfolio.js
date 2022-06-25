@@ -77,7 +77,11 @@ const Portfolio = () => {
 						description='Greka es un trabajo en proceso para una cliente que requiere una tienda online que funcione con Google Sheets. En colaboración con un equipo de desarrolladores'
 					/>
 
-					<Project />
+					<Project 
+						url='https://res.cloudinary.com/diylksocz/image/upload/v1656165706/Sin_awd_nrallv.png'
+						repo='https://github.com/LuchoQQ/PERNproject'
+						description='Challenge con el PERN stack para ingresar a la aceleración en Alkemy, actualmente en curso.'
+					/>
 				</Grid>
 			</Grid>
 		</motion.div>
